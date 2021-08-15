@@ -89,3 +89,4 @@ Algoritmo
                a. Imprimir mensaje "Esa no es una opción válida."
                b. Fin del programa.
 14) Imprimir mensaje "Felicidades, lograste contestar todas las preguntas con", contador "de vidas." 
+
