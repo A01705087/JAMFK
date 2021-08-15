@@ -6,87 +6,167 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 Algoritmo
 
 1)Imprimir mensaje de saludo
+
 2)Imprimir opciones de estudio (suma, resta, multiplicar, dividir)
+
 3)Crear listasuma (Con las preguntas previamente establecidas)
+
 4)Asignar a la variable choice1, el valor de suma
+
 5)Crear listaresta (Con las preguntas previamente establecidas)
+
 6)Asignar a la variable choice2, el valor de resta
+
 7)Crear listamultiplicar (Con las preguntas previamente establecidas)
+
 8)Asignar a la variable choice3, el valor de multiplicar
+
 9)Crear listadividir (Con las preguntas previamente establecidas)
+
 10)Asignar a la variable choice4, el valor de dividir
+
 11)Poner valor de tres a contador
-11)Pedir opcion
+
+11)Pedir opcion con el mensaje "Escribe tu opción"
+
 13)Si opcion es igual a choice1:
+
       a. Imprimir mensaje de bienvenida de suma.
+      
       b. Mientras contador sea mayor a cero:
+      
             a.Imprimir elemento de listasuma
+            
             b.Asignar a la variable resultado, la resolución de la pregunta
+            
             c.Pedir respuesta
+            
             d.Si respuesta es igual a resultado:
+            
                        a.Imprimir "Tuviste la respuesta correcta."
+                       
                        b. Regresar al paso 13.b
+                       
              e. otro:
                        a.Imprimir "Tuviste la respuesta incorrecta."
+                       
                        b.Restar uno a la variable contador.
-                        c. Regresar al paso 13.b
+                       
+                       c. Regresar al paso 13.b
         otro:
                 a.Imprimir mensaje "Game Over"
-                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima".
+                
+                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima."
+                
                 c.Fin del programa.
+                
 13.1 else si opcion es igual a choice2:
+
       a. Imprimir mensaje de bienvenida de resta.
+      
       b. Mientras contador sea mayor a cero:
+      
             a.Imprimir elemento de listaresta
+            
             b.Asignar a la variable resultado, la resolución de la pregunta
+            
             c.Pedir respuesta
+            
             d.Si respuesta es igual a resultado:
+            
                        a.Imprimir "Tuviste la respuesta correcta."
+                       
                        b. Regresar al paso 13.b
+                       
              e. otro:
+             
                        a.Imprimir "Tuviste la respuesta incorrecta."
+                       
                        b.Restar uno a la variable contador.
-                        c. Regresar al paso 13.1.b
+                       
+                       c. Regresar al paso 13.1.b
+                        
         otro:
+        
                 a.Imprimir mensaje "Game Over"
-                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima".
+                
+                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima."
+                
                 c.Fin del programa.
+                
 13.2 else Si opcion es igual a choice3:
+
       a. Imprimir mensaje de bienvenida de multiplicar.
+      
       b. Mientras contador sea mayor a cero:
+      
             a.Imprimir elemento de listamultiplicar
+            
             b.Asignar a la variable resultado, la resolución de la pregunta
+            
             c.Pedir respuesta
+            
             d.Si respuesta es igual a resultado:
+            
                        a.Imprimir "Tuviste la respuesta correcta."
+                       
                        b. Regresar al paso 13.2.b
+                       
              e. otro:
+             
                        a.Imprimir "Tuviste la respuesta incorrecta."
+                       
                        b.Restar uno a la variable contador.
-                        c. Regresar al paso 13.2.b
+                       
+                       c. Regresar al paso 13.2.b
+                       
         otro:
+        
                 a.Imprimir mensaje "Game Over"
-                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima".
+                
+                b.Imprimir mensaje "Puedes tener mejor suerte para la próxima."
+                
                 c.Fin del programa.
+                
 13.3 else si opcion es igual a choice4:
+
       a. Imprimir mensaje de bienvenida de dividir.
+      
       b. Mientras contador sea mayor a cero:
+      
             a.Imprimir elemento de listadividir
+            
             b.Asignar a la variable resultado, la resolución de la pregunta
+            
             c.Pedir respuesta
+            
             d.Si respuesta es igual a resultado:
+            
                        a.Imprimir "Tuviste la respuesta correcta."
+                       
                        b. Regresar al paso 13.3.b
+                       
              e. otro:
+             
                        a.Imprimir "Tuviste la respuesta incorrecta."
+                       
                        b.Restar uno a la variable contador.
-                        c. Regresar al paso 13.3.b
+                       
+                       c. Regresar al paso 13.3.b
+                       
         otro:
+        
                 a.Imprimir mensaje "Game Over"
+                
                 b.Imprimir mensaje "Puedes tener mejor suerte para la próxima".
+                
                 c.Fin del programa.
+                
 13.4 else:
+
                a. Imprimir mensaje "Esa no es una opción válida."
+               
                b. Fin del programa.
+               
 14) Imprimir mensaje "Felicidades, lograste contestar todas las preguntas con", contador "de vidas." 
 
