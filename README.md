@@ -33,7 +33,7 @@ Algoritmo
 
 	a.pedir opcion mostrando los números para cada operación
       
-b.Si opcion es igual a 0:
+13.b.Si opcion es igual a 0:
 
       a. Imprimir mensaje de bienvenida de suma.
       
@@ -49,7 +49,7 @@ b.Si opcion es igual a 0:
             
                        a.Imprimir "Tuviste la respuesta correcta."
                        
-                       b. Regresar al paso 15.b.b
+                       b. Regresar al paso 13.b.b
                        
              e. otro:
              
@@ -57,13 +57,13 @@ b.Si opcion es igual a 0:
                        
                        b.Restar uno a la variable contador.
                        
-                        c. Regresar al paso 15.b.b
+                        c. Regresar al paso 13.b.b
                         
         otro:
         
                 a.Imprimir mensaje "Game Over"
                 
-15.b.1 else si opcion es igual a 1:
+13.b.1 else si opcion es igual a 1:
 
       a. Imprimir mensaje de bienvenida de resta.
       
@@ -79,7 +79,7 @@ b.Si opcion es igual a 0:
             
                        a.Imprimir "Tuviste la respuesta correcta."
                        
-                       b. Regresar al paso 15.b.1.b
+                       b. Regresar al paso 13.b.1.b
                        
              e. otro:
              
@@ -87,7 +87,7 @@ b.Si opcion es igual a 0:
                        
                        b.Restar uno a la variable contador.
                        
-                        c. Regresar al paso 15.b.1.b
+                        c. Regresar al paso 13.b.1.b
                         
         otro:
         
