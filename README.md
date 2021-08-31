@@ -21,7 +21,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 
 8)Asignar a la variable modo_de_juego el valor de “suma”
 
-9)Poner valor de tres a Contador_de_vidas
+9)Poner valor de tres a contador_de_vidas
 
 10)Asignar valor de 0 a opcion
 
