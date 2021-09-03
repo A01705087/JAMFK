@@ -85,17 +85,17 @@ elif opcion==1:
     print('Recuerda que tienes tres vidas')
     print('Pregunta',acum)
     print('¿Cuál es el resultado de', generar_pregunta2(100,25), '?')
-        print('Ponga su respuesta')
-        resultado= crear_respuesta2(100, 25)
-        respuesta=int(input())
-        if respuesta == resultado:
-            print('Tienes la respuesta correcta')
-        else:
-            print('Tuviste la respuesta incorrecta')
-            contador_de_vidas= contador_de_vidas-1
-        acum=acum+1
-        a=a+1
-        b=b+1
+    print('Ponga su respuesta')
+    resultado= crear_respuesta2(100, 25)
+    respuesta=int(input())
+    if respuesta == resultado:
+        print('Tienes la respuesta correcta')
+    else:
+        print('Tuviste la respuesta incorrecta')
+        contador_de_vidas= contador_de_vidas-1
+    acum=acum+1
+    a=a+1
+    b=b+1
 
 
 #Conclusión
