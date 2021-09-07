@@ -5,63 +5,63 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 
 # Algoritmo
 
-#Inicio del programa
-
-1)print('Bienvenid@ a JMFK, un juego divertido para practicar matemáticas')
-
-2)print('Escoge el tipo de operación')
-
-3)Crear listasuma (Con las preguntas previamente establecidas)
-
-4)Crear variable a con el valor de 0
-
-5)Crear listaresta (Con las preguntas previamente establecidas)
-
-6)Crear variable b con el valor de 1
-
-8)Asignar a la variable modo_de_juego el valor de “suma”
-
-9)Poner valor de tres a contador_de_vidas
-
-10)Asignar valor de 0 a opcion
-
-11)Asignar variable de resultado con 0
-
-12)Asignar variable de respuesta con 0
-
-13)Asignar a la variable acum el valor de 1
-
-14)While opcion>2:
-
-	a.pedir opcion mostrando los números para cada operación
-	
 #Funciones
 
-15) def generar_pregunta(valor_1,valor_2):
+1) def generar_pregunta(valor_1,valor_2):
     a.uno=str(valor_1)
     b.dos=str(valor_2)
     c.pregunta=uno,'+', dos
     d.return pregunta
     
-16)def crear_respuesta(valor1, valor2):
+2)def crear_respuesta(valor1, valor2):
     a.answer=valor1+valor2
     b.return answer
 
-17)def generar_pregunta2(valor_1, valor_2):
+3)def generar_pregunta2(valor_1, valor_2):
     a.uno=str(valor_1)
     b.dos=str(valor_2)
     c.pregunta=uno,'-', dos
     d.return pregunta
 
-18)def crear_respuesta2(valor1, valor2):
+4)def crear_respuesta2(valor1, valor2):
     answer= valor1-valor2
     return answer    
+
+#Inicio del programa
+
+5)print('Bienvenid@ a JMFK, un juego divertido para practicar matemáticas')
+
+6)print('Escoge el tipo de operación')
+
+7)Crear listasuma (Con las preguntas previamente establecidas)
+
+8)Crear variable a con el valor de 0
+
+9)Crear listaresta (Con las preguntas previamente establecidas)
+
+10)Crear variable b con el valor de 1
+
+11)Asignar a la variable modo_de_juego el valor de “suma”
+
+12)Poner valor de tres a contador_de_vidas
+
+13)Asignar valor de 0 a opcion
+
+14)Asignar variable de resultado con 0
+
+15)Asignar variable de respuesta con 0
+
+16)Asignar a la variable acum el valor de 1
+
+17)While opcion>2:
+
+	a.pedir opcion mostrando los números para cada operación
     
     
 #Juego
     
     
-19.If opcion==0:
+18.If opcion==0:
 
       a. Imprimir mensaje de bienvenida de suma.
       
@@ -71,11 +71,11 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    b. print('¿Cuál es el resultado de', generar_pregunta(listasuma[a],listasuma[b]), '?')
 	    
-	    c. Al paso 15.
+	    c. Al paso 1.
             
             d.Asignar a la variable resultado, la resolución de la pregunta con la funcion crear_respuesta(listasuma[a],lista suma[b])
 	    
-	    e. Ir al paso 16.
+	    e. Ir al paso 2.
             
             c.Pedir respuesta y asignarlo a la variable respuesta
             
@@ -95,10 +95,10 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    h. sumar uno a b
 	    
-            i. Regresar al paso 19.b
+            i. Regresar al paso 18.b
     
                 
-19.b elif opcion== 1:
+18.b elif opcion== 1:
 
       a. Imprimir mensaje de bienvenida de resta.
       
@@ -108,11 +108,11 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    b. print('¿Cuál es el resultado de', generar_pregunta2(listaresta[a],listaresta[b]), '?')
 	    
-	    c. Al paso 17.
+	    c. Al paso 3.
             
             d.Asignar a la variable resultado, la resolución de la pregunta con la funcion crear_respuesta2(listaresta[a],listaresta[b])
 	    
-	    e. Ir al paso 18.
+	    e. Ir al paso 4.
             
             c.Pedir respuesta y asignarlo a la variable respuesta
             
@@ -132,7 +132,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    h. sumar uno a b
 	    
-            i. Regresar al paso 19.b.b
+            i. Regresar al paso 18.b.b
     
 #Conclusión           
         
