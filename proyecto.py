@@ -1,5 +1,27 @@
 
-#Inicio de programa
+#Funciones del juego
+
+def generar_pregunta(valor_1, valor_2):
+    uno=str(valor_1)
+    dos=str(valor_2)
+    pregunta=uno,'+', dos
+    return pregunta
+
+def crear_respuesta(valor1, valor2):
+    answer=valor1 + valor2
+    return answer
+
+def generar_pregunta2(valor_1, valor_2):
+    uno=str(valor_1)
+    dos=str(valor_2)
+    pregunta=uno,'-', dos
+    return pregunta
+
+def crear_respuesta2(valor1, valor2):
+    answer= valor1 - valor2
+    return answer
+
+#Inicio del programa
 
 print('Bienvenid@ a JMFK, un juego divertido para practicar matemáticas')
 print('Escoge el tipo de operación')
@@ -31,33 +53,10 @@ if opcion>2:
 else:
     print('Muy bien. Comencemos el juego.')
 
-
 if opcion==0:
     modo_de_juego="suma"
 elif opcion==1:
     modo_de_juego="resta"
-
-#Funciones del juego
-
-def generar_pregunta(valor_1, valor_2):
-    uno=str(valor_1)
-    dos=str(valor_2)
-    pregunta=uno,'+', dos
-    return pregunta
-
-def crear_respuesta(valor1, valor2):
-    answer=valor1+valor2
-    return answer
-
-def generar_pregunta2(valor_1, valor_2):
-    uno=str(valor_1)
-    dos=str(valor_2)
-    pregunta=uno,'-', dos
-    return pregunta
-
-def crear_respuesta2(valor1, valor2):
-    answer= valor1-valor2
-    return answer
 
 # Juego
 
@@ -74,10 +73,10 @@ if opcion==0:
         print('Tienes la respuesta correcta')
     else:
         print('Tuviste la respuesta incorrecta')
-        contador_de_vidas= contador_de_vidas-1
-    acum=acum+1
-    a=a+1
-    b=b+1
+        contador_de_vidas= contador_de_vidas - 1
+    acum= acum + 1
+    a= a + 1
+    b= b + 1
 
 elif opcion==1:
     print('Bienvenid@ a la resta')
@@ -92,10 +91,10 @@ elif opcion==1:
         print('Tienes la respuesta correcta')
     else:
         print('Tuviste la respuesta incorrecta')
-        contador_de_vidas= contador_de_vidas-1
-    acum=acum+1
-    a=a+1
-    b=b+1
+        contador_de_vidas= contador_de_vidas - 1
+    acum= acum + 1
+    a= a + 1
+    b= b + 1
 
 
 #Conclusión
