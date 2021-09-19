@@ -53,7 +53,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 
 16)Asignar a la variable acum el valor de 1
 
-17)While opcion>2:
+17)While opcion>=2:
 
 	a.pedir opcion mostrando los números para cada operación
     
