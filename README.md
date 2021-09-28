@@ -93,7 +93,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    g. sumar uno a a
 	    
-	    h. sumar uno a b
+	    h. sumar dos a b
 	    
             i. Regresar al paso 18.b
     
@@ -130,7 +130,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	    
 	    g. sumar uno a a
 	    
-	    h. sumar uno a b
+	    h. sumar dos a b
 	    
             i. Regresar al paso 18.b.b
     
