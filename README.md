@@ -1,7 +1,7 @@
 
 # JAMFK
 
-La educación es uno de los aspectos que avanzan a la mano de la tecnología disponible. Uno podría comparar los métodos de enseñanza de hace cien años con los de ahora. Los conceptos se simplifican mientras pasa el tiempo. En este proceso de simplificación es donde se crean ideas innovadoras para expandir el aprendizaje. Una de estas formas son las aplicaciones para practicar las matemáticas básicas. Analizando las aplicaciones del mercado, las más reconocidas se enfocan en la seriedad de la compresión, en vez de hacerlo divertido como si fuera un videojuego (una de las cosas que se fijan los niños, el mercado principal). Por eso, quiero crear un juego llamado JAMFK (Juego Amigable de Matemáticas For Kids) para practicar las sumas, y restas de una forma diferente a la vez entretenida para poner otra opción para la educación infantil. Este videojuego tendrá un banco de diez preguntas de cada tipo de operación, y un contador de vidas que se reduce cada que se contesta incorrectamente. Hasta incluso aparecería un mensaje de "Game Over" si se acaban las vidas, pero en el caso contrario de que se terminen de contestar las preguntas correctamente se pondrá un mensaje de celebración.
+La educación es uno de los aspectos que avanzan a la mano de la tecnología disponible. Uno podría comparar los métodos de enseñanza de hace cien años con los de ahora. Los conceptos se simplifican mientras pasa el tiempo. En este proceso de simplificación es donde se crean ideas innovadoras para expandir el aprendizaje. Una de estas formas son las aplicaciones para practicar las matemáticas básicas. Analizando las aplicaciones del mercado, las más reconocidas se enfocan en la seriedad de la compresión, en vez de hacerlo divertido como si fuera un videojuego (una de las cosas que se fijan los niños, el mercado principal). Por eso, quiero crear un juego llamado JAMFK (Juego Amigable de Matemáticas For Kids) para practicar las sumas, y restas de una forma diferente a la vez entretenida para poner otra opción para la educación infantil, sumándome a la tendencia de aplicaciones como Matific o Smartick (El Mundo, s.f). Este videojuego tendrá un banco de diez preguntas de cada tipo de operación, y un contador de vidas que se reduce cada que se contesta incorrectamente. Hasta incluso aparecería un mensaje de "Game Over" si se acaban las vidas, pero en el caso contrario de que se terminen de contestar las preguntas correctamente se pondrá un mensaje de celebración.
 
 # Algoritmo
 
@@ -141,7 +141,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
        a.print("Felicidades, lograste contestar todas las diez preguntas de,” modo_de_juego, “.”)
       
        b.print( “Con:”, contador_de_vidas, “vidas.”)
-      
+
        c.print(“Gracias por jugar JMFK. :)”)
       
      else:
@@ -151,3 +151,8 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 	b.print (“Lo siento.”)
       
 	c.print(“Puedes tener major suerte para la próxima.”)
+	
+Referencias:
+
+El Mundo. (s.f.). Apps y consejos para que tus hijos aprendan matemáticas y además se diviertan. Recuperado de:	
+    https://saposyprincesas.elmundo.es/ocio-en-casa/apps-videojuegos/apps-hijos-aprendan-matematicas/
