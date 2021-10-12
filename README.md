@@ -14,17 +14,17 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
     d.return pregunta
     
 2)def crear_respuesta(valor1, valor2):
-    a.answer=valor1+valor2
+    a.answer= valor absoluto de valor1 + valor absoluto de valor2
     b.return answer
 
 3)def generar_pregunta2(valor_1, valor_2):
     a.uno=str(valor_1)
     b.dos=str(valor_2)
-    c.pregunta=uno,'-', dos
+    c.pregunta= uno,'-',dos
     d.return pregunta
 
 4)def crear_respuesta2(valor1, valor2):
-    answer= valor1-valor2
+    answer= valor absoluto de valor1 - valor absoluto de valor2
     return answer    
 
 #Inicio del programa
@@ -156,3 +156,11 @@ Referencias:
 
 El Mundo. (s.f.). Apps y consejos para que tus hijos aprendan matemáticas y además se diviertan. Recuperado de:	
     https://saposyprincesas.elmundo.es/ocio-en-casa/apps-videojuegos/apps-hijos-aprendan-matematicas/
+
+Referencias de funciones dentro del programa:
+
+Python Software Foundation.(2021). Built-in Functions. Recuperado de:
+	https://docs.python.org/3.10/library/functions.html#abs 
+
+Python Software Foundation.(2021). Built-in Types. Recuperado de:
+	https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
