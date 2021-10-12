@@ -3,26 +3,34 @@
 
 def generar_pregunta(valor_1, valor_2):
     """" Genera la pregunta para la suma."""
+    """ Explicación función str:
+    Convierte cualquier valor a un string."""
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'+', dos
     return pregunta
 
 def crear_respuesta(valor1, valor2):
-    """" Se hace la operación aritmética de los números."""
-    answer= valor1 + valor2
+    """" Se hace la operación aritmética del valor absoluto de números."""
+    """ Explicación función abs: 
+    Sin importar si el valor sea entero o un float, regresa la magnitud."""
+    answer= abs(valor1) + abs(valor2)
     return answer
 
 def generar_pregunta2(valor_1, valor_2):
     """" Obtiene la pregunta para la resta."""
+    """ Explicación función str:
+    Convierte cualquier valor a un string. """
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'-', dos
     return pregunta
 
 def crear_respuesta2(valor1, valor2):
-    """ De los números de la lista, se hace resta."""
-    answer= valor1 - valor2
+    """ De los valores absolutos de los números de la lista, se hace resta."""
+    """ Explicación función abs: 
+    Sin importar si el valor sea entero o un float, regresa la magnitud."""
+    answer= abs(valor1) - abs(valor2)
     return answer
 
 #Inicio del programa
