@@ -155,12 +155,5 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
 Referencias:
 
 El Mundo. (s.f.). Apps y consejos para que tus hijos aprendan matemáticas y además se diviertan. Recuperado de:	
-    https://saposyprincesas.elmundo.es/ocio-en-casa/apps-videojuegos/apps-hijos-aprendan-matematicas/
+    https://saposyprincesas.elmundo.es/ocio-en-casa/apps-videojuegos/apps-hijos-aprendan-matematicas
 
-Referencias de funciones dentro del programa:
-
-Python Software Foundation.(2021). Built-in Functions. Recuperado de:
-	https://docs.python.org/3.10/library/functions.html#abs 
-
-Python Software Foundation.(2021). Built-in Types. Recuperado de:
-	https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
