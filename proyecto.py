@@ -4,7 +4,17 @@
 def generar_pregunta(valor_1, valor_2):
     """" Genera la pregunta para la suma."""
     """ Explicación función str:
-    Convierte cualquier valor a un string."""
+    Convierte cualquier valor a un string. 
+    La razón de que se usa esta función es
+    para que pueda mostrar los números como texto,
+    no como enteros, y poder poner la pregunta 
+    sin ningún problema. 
+    
+    Referencia:
+    
+    Python Software Foundation.(2021). Built-in Types. Recuperado de:
+	    https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
+      """
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'+', dos
@@ -13,14 +23,31 @@ def generar_pregunta(valor_1, valor_2):
 def crear_respuesta(valor1, valor2):
     """" Se hace la operación aritmética del valor absoluto de números."""
     """ Explicación función abs: 
-    Sin importar si el valor sea entero o un float, regresa la magnitud."""
+    Sin importar si el valor sea entero o un float, regresa la magnitud.
+    Esto lo uso, ya que necesito asegurar de que el signo del valor,
+    no interfiera con la operación que se está haciendo.
+    
+    Referencia:
+    
+    Python Software Foundation.(2021). Built-in Functions. Recuperado de:
+	    https://docs.python.org/3.10/library/functions.html#abs 
+    """
     answer= abs(valor1) + abs(valor2)
     return answer
 
 def generar_pregunta2(valor_1, valor_2):
     """" Obtiene la pregunta para la resta."""
     """ Explicación función str:
-    Convierte cualquier valor a un string. """
+        Convierte cualquier valor a un string. 
+        La razón de que se usa esta función es
+        para que pueda mostrar los números como texto,
+        no como enteros, y poder poner la pregunta 
+        sin ningún problema. 
+
+        Referencia:
+        Python Software Foundation.(2021). Built-in Types. Recuperado de:
+    	    https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
+          """
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'-', dos
@@ -29,7 +56,15 @@ def generar_pregunta2(valor_1, valor_2):
 def crear_respuesta2(valor1, valor2):
     """ De los valores absolutos de los números de la lista, se hace resta."""
     """ Explicación función abs: 
-    Sin importar si el valor sea entero o un float, regresa la magnitud."""
+       Sin importar si el valor sea entero o un float, regresa la magnitud.
+       Esto lo uso, porque necesito asegurar de que el signo del valor,
+       no interfiera con la operación que se está haciendo.
+
+       Referencia:
+
+       Python Software Foundation.(2021). Built-in Functions. Recuperado de:
+           https://docs.python.org/3.10/library/functions.html#abs 
+       """
     answer= abs(valor1) - abs(valor2)
     return answer
 
