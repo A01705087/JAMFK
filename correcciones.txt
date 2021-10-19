@@ -1,0 +1,49 @@
+Sub-Competencia: Incorpora y explica nuevas funciones en su progra e incluya su referencias al API de pythoon. (Final)
+
+Error original:
+
+No están las funciones extras.
+
+Cambio realizado:
+
+Se incorporó en comentarios al inicio del código las explicaciones de las funciones extra, que son:
+str, abs, y round. 
+También puse la explicación, la razón que la usé, y las líneas donde están las funciones. 
+Así se vería:
+
+"""Las funciones adicionales fueron obtenidas de:
+    https://docs.python.org/3/library/index.html
+    
+    Las que se usaron fueron str, abs, y round.
+    
+    La primera convierte cualquier valor en un string. 
+    La razón de que se usa esta función es
+    para que pueda mostrar los números como texto,
+    no como enteros, y poder poner la pregunta 
+    sin ningún problema.  
+    Se usan en las funciones generar_pregunta y
+    generar_pregunta2.
+    Las líneas en las que está son:
+    53, 54, 71 y 72
+    
+    La segunda, sin importar si el valor sea entero o un float, 
+    regresa la magnitud.
+    Esto lo uso, ya que necesito asegurar de que el signo del valor,
+    no interfiera con la operación que se está haciendo.
+    Está presente en las funciones crear_respuesta y
+    crear_respuesta2.
+    Las líneas en las que está son:
+    63, y 80.
+    
+    La tercera redondea al múltiplo más cercano de diez menos,
+    un número de dígitos.Regresa un número entero. 
+    Uso esta función para asegurarme,
+    que el resultado sea un entero, no un float.
+    Está en las funciones crear_respuesta y
+    crear_respuesta2.
+    Las líneas en las que está son:
+    63, y 80.
+    
+"""
+
+Líneas de código donde se ve la corrección: 11 a 44

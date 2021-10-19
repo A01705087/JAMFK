@@ -1,62 +1,72 @@
 
-#Funciones del juego
+"""" María Isabel Márquez Resendiz A01705087
+    Proyecto JMFK
+    Un juego de matemáticas para niños,
+    en el que se practican las sumas y restas,
+    a través de diez preguntas,
+     generadas de forma aleatoria y
+     un contador de vidas.
+ """
 
-def generar_pregunta(valor_1, valor_2):
-    """Genera la pregunta para la suma."""
-    """ Explicación función str:
-    Convierte cualquier valor a un string. 
+"""Las funciones adicionales fueron obtenidas de:
+    https://docs.python.org/3/library/index.html
+    
+    Las que se usaron fueron str, abs, y round.
+    
+    La primera convierte cualquier valor en un string. 
     La razón de que se usa esta función es
     para que pueda mostrar los números como texto,
     no como enteros, y poder poner la pregunta 
-    sin ningún problema. 
+    sin ningún problema.  
+    Se usan en las funciones generar_pregunta y
+    generar_pregunta2.
+    Las líneas en las que está son:
+    53, 54, 71 y 72
     
-    Referencia:
+    La segunda, sin importar si el valor sea entero o un float, 
+    regresa la magnitud.
+    Esto lo uso, ya que necesito asegurar de que el signo del valor,
+    no interfiera con la operación que se está haciendo.
+    Está presente en las funciones crear_respuesta y
+    crear_respuesta2.
+    Las líneas en las que está son:
+    63, y 80.
     
-    Python Software Foundation.(2021). Built-in Types. Recuperado de:
-	    https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
-      """
+    La tercera redondea al múltiplo más cercano de diez menos,
+    un número de dígitos.Regresa un número entero. 
+    Uso esta función para asegurarme,
+    que el resultado sea un entero, no un float.
+    Está en las funciones crear_respuesta y
+    crear_respuesta2.
+    Las líneas en las que está son:
+    63, y 80.
+    
+"""
+
+#Funciones del juego
+
+def generar_pregunta(valor_1, valor_2):
+    """Genera la pregunta para la suma.
+    recibe: valor númerico 1 y valor númerico 2
+    devuelve: string con los valores númericos mostrados en la pregunta.
+    """
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'+', dos
     return pregunta
 
 def crear_respuesta(valor1, valor2):
-    """Se hace la operación aritmética del valor absoluto de números."""
-    """ Explicación función abs: 
-    Sin importar si el valor sea entero o un float, regresa la magnitud.
-    Esto lo uso, ya que necesito asegurar de que el signo del valor,
-    no interfiera con la operación que se está haciendo.
-    
-    Referencia:
-    
-    Python Software Foundation.(2021). Built-in Functions. Recuperado de:
-	    https://docs.python.org/3.10/library/functions.html#abs 
-    """
-    """Explicación función round:
-    Redondea al múltiplo más cercano de diez menos un número de dígitos.
-    Regresa un número entero. Uso esta función para asegurarme,
-    que el resultado sea un entero, no un float.
-    
-    Referencia:
-    
-    Python Software Foundation.(2021). Built-in Functions. Recuperado de:
-	    https://docs.python.org/3.10/library/functions.html#round
+    """Se hace la operación aritmética del valor absoluto de números.
+    recibe: valor númerico 1 y valor númerico 2.
+    devuelve: resultado de la suma de los números.
     """
     answer= round(abs(valor1) + abs(valor2))
     return answer
 
 def generar_pregunta2(valor_1, valor_2):
-    """ Obtiene la pregunta para la resta."""
-    """ Explicación función str:
-        Convierte cualquier valor a un string. 
-        La razón de que se usa esta función es
-        para que pueda mostrar los números como texto,
-        no como enteros, y poder poner la pregunta 
-        sin ningún problema. 
-
-        Referencia:
-        Python Software Foundation.(2021). Built-in Types. Recuperado de:
-    	    https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
+    """ Obtiene la pregunta para la resta.
+    recibe: valor númerico 1 y valor númerico 2.
+    devuelve: string con los valores númericos mostrados en la pregunta.
     """
     uno= str(valor_1)
     dos= str(valor_2)
@@ -64,26 +74,9 @@ def generar_pregunta2(valor_1, valor_2):
     return pregunta
 
 def crear_respuesta2(valor1, valor2):
-    """ De los valores absolutos de los números de la lista, se hace resta."""
-    """ Explicación función abs: 
-       Sin importar si el valor sea entero o un float, regresa la magnitud.
-       Esto lo uso, porque necesito asegurar de que el signo del valor,
-       no interfiera con la operación que se está haciendo.
-
-       Referencia:
-
-       Python Software Foundation.(2021). Built-in Functions. Recuperado de:
-           https://docs.python.org/3.10/library/functions.html#abs 
-    """
-    """Explicación función round:
-      Redondea al múltiplo más cercano de diez menos un número de dígitos.
-      Regresa un número entero. Uso esta función para asegurarme,
-      que el resultado sea un entero, no un float.
-
-      Referencia:
-
-      Python Software Foundation.(2021). Built-in Functions. Recuperado de:
-          https://docs.python.org/3.10/library/functions.html#round
+    """ De los valores absolutos de los números de la lista, se hace resta.
+    recibe: valor númerico 1 y valor númerico 2
+    devuelve: resultado de la resta de los números.
     """
     answer= round(abs(valor1) - abs(valor2))
     return answer
