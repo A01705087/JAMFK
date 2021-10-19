@@ -2,7 +2,7 @@
 #Funciones del juego
 
 def generar_pregunta(valor_1, valor_2):
-    """" Genera la pregunta para la suma."""
+    """Genera la pregunta para la suma."""
     """ Explicación función str:
     Convierte cualquier valor a un string. 
     La razón de que se usa esta función es
@@ -21,7 +21,7 @@ def generar_pregunta(valor_1, valor_2):
     return pregunta
 
 def crear_respuesta(valor1, valor2):
-    """" Se hace la operación aritmética del valor absoluto de números."""
+    """Se hace la operación aritmética del valor absoluto de números."""
     """ Explicación función abs: 
     Sin importar si el valor sea entero o un float, regresa la magnitud.
     Esto lo uso, ya que necesito asegurar de que el signo del valor,
@@ -32,11 +32,21 @@ def crear_respuesta(valor1, valor2):
     Python Software Foundation.(2021). Built-in Functions. Recuperado de:
 	    https://docs.python.org/3.10/library/functions.html#abs 
     """
-    answer= abs(valor1) + abs(valor2)
+    """Explicación función round:
+    Redondea al múltiplo más cercano de diez menos un número de dígitos.
+    Regresa un número entero. Uso esta función para asegurarme,
+    que el resultado sea un entero, no un float.
+    
+    Referencia:
+    
+    Python Software Foundation.(2021). Built-in Functions. Recuperado de:
+	    https://docs.python.org/3.10/library/functions.html#round
+    """
+    answer= round(abs(valor1) + abs(valor2))
     return answer
 
 def generar_pregunta2(valor_1, valor_2):
-    """" Obtiene la pregunta para la resta."""
+    """ Obtiene la pregunta para la resta."""
     """ Explicación función str:
         Convierte cualquier valor a un string. 
         La razón de que se usa esta función es
@@ -47,7 +57,7 @@ def generar_pregunta2(valor_1, valor_2):
         Referencia:
         Python Software Foundation.(2021). Built-in Types. Recuperado de:
     	    https://docs.python.org/3.10/library/stdtypes.html#text-sequence-type-str
-          """
+    """
     uno= str(valor_1)
     dos= str(valor_2)
     pregunta= uno,'-', dos
@@ -64,8 +74,18 @@ def crear_respuesta2(valor1, valor2):
 
        Python Software Foundation.(2021). Built-in Functions. Recuperado de:
            https://docs.python.org/3.10/library/functions.html#abs 
-       """
-    answer= abs(valor1) - abs(valor2)
+    """
+    """Explicación función round:
+      Redondea al múltiplo más cercano de diez menos un número de dígitos.
+      Regresa un número entero. Uso esta función para asegurarme,
+      que el resultado sea un entero, no un float.
+
+      Referencia:
+
+      Python Software Foundation.(2021). Built-in Functions. Recuperado de:
+          https://docs.python.org/3.10/library/functions.html#round
+    """
+    answer= round(abs(valor1) - abs(valor2))
     return answer
 
 #Inicio del programa
