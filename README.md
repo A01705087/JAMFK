@@ -14,7 +14,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
     d.return pregunta
     
 2)def crear_respuesta(valor1, valor2):
-    a.answer= valor absoluto de valor1 + valor absoluto de valor2
+    a.answer= redondea (valor absoluto de valor1 + valor absoluto de valor2)
     b.return answer
 
 3)def generar_pregunta2(valor_1, valor_2):
@@ -24,7 +24,7 @@ La educación es uno de los aspectos que avanzan a la mano de la tecnología dis
     d.return pregunta
 
 4)def crear_respuesta2(valor1, valor2):
-    answer= valor absoluto de valor1 - valor absoluto de valor2
+    answer= redondea (valor absoluto de valor1 - valor absoluto de valor2)
     return answer    
 
 #Inicio del programa
